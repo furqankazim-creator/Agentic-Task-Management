@@ -1,0 +1,152 @@
+{
+  "contacts": {
+    "Facebook:27388920027467176": {
+      "id": "Facebook:27388920027467176",
+      "channel": "Facebook",
+      "ext": "27388920027467176",
+      "name": "Zahoor Ahmed Jamali",
+      "firstSeen": "2026-11-03T05:48:32.313Z",
+      "notes": "",
+      "phone": "",
+      "email": "",
+      "tags": [],
+      "messageCount": 8,
+      "lastSeen": "2026-11-04T09:52:06.542Z"
+    },
+    "Facebook:29473528085577705": {
+      "id": "Facebook:29473528085577705",
+      "channel": "Facebook",
+      "ext": "29473528085577705",
+      "name": "Riot Ttrio",
+      "firstSeen": "2026-11-03T05:48:32.313Z",
+      "notes": "",
+      "phone": "",
+      "email": "",
+      "tags": [],
+      "messageCount": 1,
+      "lastSeen": "2026-11-04T09:52:06.542Z"
+    }
+  },
+  "convs": {
+    "Facebook:27388920027467176": {
+      "id": "Facebook:27388920027467176",
+      "contactId": "Facebook:27388920027467176",
+      "channel": "Facebook",
+      "kind": "chat",
+      "commentId": null,
+      "messages": [
+        {
+          "id": "Mmw09p32a8i0",
+          "dir": "in",
+          "text": "Hey i want job",
+          "by": "Zahoor Ahmed Jamali",
+          "mid": "m_HUWMu8lLXLBTIeVOnGfgyPGuFjGs3awf5Fbo1oTbOA-t03rwff9iyiAMAGh3iOpgfVSM1z0B8D2RgP-nC9KObQ",
+          "at": "2026-11-02T12:10:59.000Z"
+        },
+        {
+          "id": "Mmw09oo1lt6t",
+          "dir": "in",
+          "text": "Hi i want some mobile app give me the budget\nHey the budget ia shot can you\nHey i want mobile app\nHey\nI want the web application how much its price\nHello\nHey i want to get chicken\nHey",
+          "by": "Zahoor Ahmed Jamali",
+          "mid": null,
+          "at": "2026-11-03T05:04:17.289Z"
+        },
+        {
+          "id": "Mmw09oo1l9ge",
+          "dir": "in",
+          "text": "I want an product roster what the budget",
+          "by": "Zahoor Ahmed Jamali",
+          "mid": null,
+          "at": "2026-11-03T05:26:51.577Z"
+        },
+        {
+          "id": "Mmw09oo1lfuj",
+          "dir": "in",
+          "text": "I want to leave for 2 days",
+          "by": "Zahoor Ahmed Jamali",
+          "mid": null,
+          "at": "2026-11-03T05:28:47.636Z"
+        },
+        {
+          "id": "Mmw09oo1lmom",
+          "dir": "in",
+          "text": "Please increase my and hasnain's salary",
+          "by": "Zahoor Ahmed Jamali",
+          "mid": null,
+          "at": "2026-11-03T05:34:47.552Z"
+        },
+        {
+          "id": "Mmw09oo1ldla",
+          "dir": "in",
+          "text": "Please increase my and hasnain's salary",
+          "by": "Zahoor Ahmed Jamali",
+          "mid": null,
+          "at": "2026-11-03T05:36:47.503Z"
+        },
+        {
+          "id": "Mmw0a5cc0xou",
+          "dir": "in",
+          "text": "Hi i want seo problem how much required",
+          "by": "Zahoor Ahmed Jamali",
+          "mid": "m_pexTmJprwAUKNwB42adjdfGuFjGs3awf5Fbo1oTbOA9841lJfegJ5956jSazzkQHX5k-kAn-JogLI9FqCERKOA",
+          "at": "2026-11-03T06:00:32.000Z"
+        },
+        {
+          "id": "Mmw0a72rfukv",
+          "dir": "out",
+          "text": "ok Sir I guide you",
+          "by": "Ahmed Massror",
+          "mid": "m_cB0VMdGHl8yTOTdErrA6BvGuFjGs3awf5Fbo1oTbOA88zgpmdNBWkxbOjrKqZe88V62L4T3nkQmEWXMBbLzZuQ",
+          "at": "2026-11-03T06:02:51.195Z"
+        },
+        {
+          "id": "Mmw0a7xcb323",
+          "dir": "in",
+          "text": "Testing successfully hogya he",
+          "by": "Zahoor Ahmed Jamali",
+          "mid": "m_Duh249xaKXnFigI4oUliV_GuFjGs3awf5Fbo1oTbOA-RkWnSDcJjIiJBryW-vqAKY4Vbj4ga3NTwnD7suzFaSQ",
+          "at": "2026-11-03T06:03:26.000Z"
+        },
+        {
+          "id": "Mmw0ic4mz1lb",
+          "dir": "out",
+          "text": "Hello Zahoor, thank you for reaching out! Could you please share more details about the features and platforms you need for your mobile and web applications? This will help us provide an accurate estimate.",
+          "by": "Ahmed Massror",
+          "mid": "m__PJoeQj3Yk0xJh3gXlOFDPGuFjGs3awf5Fbo1oTbOA_gV5Wyaf8WW7W_t0In7njd1t8H97w8P5WalVIQ4g6Ehg",
+          "at": "2026-11-03T09:50:43.835Z"
+        }
+      ],
+      "unread": 0,
+      "lastAt": "2026-11-03T09:50:43.835Z",
+      "lastText": "Hello Zahoor, thank you for reaching out! Could you please share more details about the features and platforms you need for your mobile and ",
+      "lastDir": "out",
+      "taskIds": [
+        "T-122"
+      ]
+    },
+    "Facebook:29473528085577705": {
+      "id": "Facebook:29473528085577705",
+      "contactId": "Facebook:29473528085577705",
+      "channel": "Facebook",
+      "kind": "chat",
+      "commentId": null,
+      "messages": [
+        {
+          "id": "Mmw09oo1lkmq",
+          "dir": "in",
+          "text": "Hello sir, i would require an app",
+          "by": "Riot Ttrio",
+          "mid": null,
+          "at": "2026-11-03T05:02:43.467Z"
+        }
+      ],
+      "unread": 0,
+      "lastAt": "2026-11-03T05:02:43.467Z",
+      "lastText": "Hello sir, i would require an app",
+      "lastDir": "in",
+      "taskIds": [
+        "T-121"
+      ]
+    }
+  }
+}

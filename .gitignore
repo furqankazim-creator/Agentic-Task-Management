@@ -2,3 +2,7 @@ node_modules/
 dist/
 server/tasks.json
 .DS_Store
+
+server/team.json
+server/.env
+server/.internal-key

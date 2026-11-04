@@ -1,0 +1,180 @@
+[
+  {
+    "id": "P-34826935",
+    "type": "website",
+    "typeName": "Website",
+    "title": "Provide client Arif with live roster server access",
+    "status": "Kickoff",
+    "statusHistory": [
+      {
+        "status": "Kickoff",
+        "at": "2026-11-04T06:22:28.269Z",
+        "by": "Ahmed Massror"
+      }
+    ],
+    "taskId": "T-132",
+    "client": null,
+    "owner": "M4",
+    "team": [
+      "M1",
+      "M5"
+    ],
+    "brief": {
+      "goals": "Build business website",
+      "features": "",
+      "platform": "",
+      "budget": "",
+      "deadline": "2026-12-15",
+      "references": "",
+      "requirements": "Home, about, contact"
+    },
+    "milestones": [],
+    "tasks": [],
+    "notes": [],
+    "createdAt": "2026-11-04T06:22:28.269Z",
+    "createdBy": "M4",
+    "updatedAt": "2026-11-04T06:22:28.269Z"
+  },
+  {
+    "id": "P-82919633",
+    "type": "website",
+    "typeName": "Website",
+    "title": "Provide client Arif with live roster server access",
+    "status": "Kickoff",
+    "statusHistory": [
+      {
+        "status": "Kickoff",
+        "at": "2026-11-04T06:13:49.196Z",
+        "by": "Ahmed Massror"
+      }
+    ],
+    "taskId": "T-132",
+    "client": null,
+    "owner": "M4",
+    "team": [
+      "M1",
+      "M5"
+    ],
+    "brief": {
+      "goals": "Build business website",
+      "features": "",
+      "platform": "",
+      "budget": "",
+      "deadline": "2026-12-15",
+      "references": "",
+      "requirements": "Home, about, contact"
+    },
+    "milestones": [],
+    "tasks": [],
+    "notes": [],
+    "createdAt": "2026-11-04T06:13:49.196Z",
+    "createdBy": "M4",
+    "updatedAt": "2026-11-04T06:13:49.196Z"
+  },
+  {
+    "id": "P-62498140",
+    "type": "website",
+    "typeName": "Website",
+    "title": "Provide client Arif with live roster server access",
+    "status": "Kickoff",
+    "statusHistory": [
+      {
+        "status": "Kickoff",
+        "at": "2026-11-04T06:10:24.981Z",
+        "by": "Ahmed Massror"
+      }
+    ],
+    "taskId": "T-132",
+    "client": null,
+    "owner": "M4",
+    "team": [
+      "M1",
+      "M5"
+    ],
+    "brief": {
+      "goals": "Build business website",
+      "features": "",
+      "platform": "",
+      "budget": "",
+      "deadline": "2026-12-15",
+      "references": "",
+      "requirements": "Home, about, contact"
+    },
+    "milestones": [],
+    "tasks": [],
+    "notes": [],
+    "createdAt": "2026-11-04T06:10:24.981Z",
+    "createdBy": "M4",
+    "updatedAt": "2026-11-04T06:10:24.981Z"
+  },
+  {
+    "id": "P-62800563",
+    "type": "website",
+    "typeName": "Website",
+    "title": "Provide client Arif with live roster server access",
+    "status": "Kickoff",
+    "statusHistory": [
+      {
+        "status": "Kickoff",
+        "at": "2026-11-04T05:53:48.005Z",
+        "by": "Ahmed Massror"
+      }
+    ],
+    "taskId": "T-132",
+    "client": null,
+    "owner": "M4",
+    "team": [],
+    "brief": {
+      "goals": "Client wants a business website",
+      "features": "",
+      "platform": "",
+      "budget": "",
+      "deadline": "2026-12-01",
+      "references": "",
+      "requirements": "Home page, contact form, about page"
+    },
+    "milestones": [],
+    "tasks": [],
+    "notes": [],
+    "createdAt": "2026-11-04T05:53:48.005Z",
+    "createdBy": "M4",
+    "updatedAt": "2026-11-04T05:53:48.005Z"
+  },
+  {
+    "id": "P-21334232",
+    "type": "mobile-app",
+    "typeName": "Mobile app",
+    "title": "Request for mobile/web app development budget",
+    "status": "Kickoff",
+    "statusHistory": [
+      {
+        "status": "Kickoff",
+        "at": "2026-11-04T05:46:53.342Z",
+        "by": "Ahmed Massror"
+      }
+    ],
+    "taskId": "T-122",
+    "client": {
+      "name": "Zahoor Ahmed Jamali",
+      "convId": "Facebook:27388920027467176",
+      "channel": "Facebook"
+    },
+    "owner": "M2",
+    "team": [],
+    "brief": {
+      "goals": "Agentic Work",
+      "features": "",
+      "platform": "",
+      "budget": "12000",
+      "deadline": "12-02-2027",
+      "references": "",
+      "requirements": "Have a folder "
+    },
+    "milestones": [],
+    "tasks": [],
+    "notes": [],
+    "createdAt": "2026-11-04T05:46:53.342Z",
+    "createdBy": "M4",
+    "updatedAt": "2026-11-04T05:46:53.342Z"
+  }
+]

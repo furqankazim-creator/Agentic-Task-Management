@@ -84,3 +84,45 @@ Tasks are stored in `server/tasks.json` (created on first run) and in
 memory while the server runs. Delete that file to reset to the 10 sample
 tasks. To move to a real database later, replace `loadTasks` / `saveTasks`
 in `server/index.js` with your database calls — the API shape stays the same.
+
+## Team logins, SLA timers and Groq AI
+
+**Sign in** at the login screen. Starting password for everyone is `welcome123` — change it from the account menu (top right).
+
+| Username / email | Person | Role | Sees |
+|---|---|---|---|
+| `irfan` / `irfan@taskmanager.local` | Irfan Nawaz | Senior Developer (member) | only their own tasks |
+| `hasnain` / `hasnain@taskmanager.local` | Hasnain Hadi | Developer | only their own tasks |
+| `zahoor` / `zahoor@taskmanager.local` | Zahoor Jamali | Developer | only their own tasks |
+| `ahmed` / `ahmed@taskmanager.local` | Ahmed Massror | CEO (admin) | everything, manages the team |
+| `akhter` / `akhter@taskmanager.local` | Akhter | Marketing (member) | only their own tasks |
+
+Logins live in `server/team.json` (hashed passwords, git-ignored). The admin adds/removes people in the **Team** tab.
+
+**SLA timers** — first reply due: urgent 1h · high 4h · medium 24h · low 72h (editable in Settings). Moving a task to Review/Do/Done, or clicking *Mark replied*, stops the timer. If it runs out, Hawk escalates to the department lead and the admin (in-app 🔔 notification + history entry).
+
+**Groq AI** — copy `server/.env.example` to `server/.env`, put your key in `GROQ_API_KEY=`, restart the server. Groq then triages every new task (priority, type, department, suggested assignee) and Scribe writes the reply draft. Without a key the app falls back to keyword rules.
+
+## Connect WhatsApp and Facebook (the simple way)
+
+Meta (Facebook + WhatsApp) sends every new message to a **webhook** on your server. One Meta app covers both.
+
+1. **Get a public https address** for the backend (Meta can't reach `localhost`). Easiest: install ngrok and run `ngrok http 3001`. It prints an address like `https://abc123.ngrok-free.app`.
+2. **Create the Meta app:** developers.facebook.com → My Apps → Create App → type *Business*. Add the products **WhatsApp** and **Messenger**.
+3. **Copy 5 values into `server/.env`** (see `.env.example`), then restart the server:
+   - `META_APP_SECRET` — App settings → Basic → App secret
+   - `META_VERIFY_TOKEN` — any word you invent
+   - `WHATSAPP_TOKEN` and `WHATSAPP_PHONE_ID` — WhatsApp → API Setup (use a System User token for a permanent one)
+   - `FB_PAGE_TOKEN` — Messenger → Settings → generate a token for your Facebook Page
+4. **Tell Meta where to send messages.** In WhatsApp → Configuration and in Messenger → Webhooks set
+   - Callback URL: `https://YOUR-ADDRESS/api/webhooks/meta`
+   - Verify token: the same `META_VERIFY_TOKEN`
+   - Subscribe to **messages**.
+5. **Test:** send a WhatsApp message to your test number (add your own phone as a recipient in API Setup), or message your Facebook Page. A task appears within seconds, triaged by Groq, with a reply draft. Settings → *Channels & alerts* shows what is connected.
+6. **Reply:** open the task, edit the draft, click **Send via WhatsApp / Facebook**. That also stops the SLA timer. Further messages from the same customer are added to the same task as comments.
+
+Limits to know: WhatsApp only allows free-text replies within 24 hours of the customer's last message; Facebook/WhatsApp apps in *development mode* only receive messages from people added to the app — switch the app to *Live* (needs Meta app review for public use).
+
+**Website form:** POST `{ "name", "email", "message" }` to `https://YOUR-ADDRESS/api/webhooks/website` with header `x-api-key: <WEBSITE_FORM_KEY>`.
+
+**Alerts outside the app:** set `SMTP_*` in `.env` for email, and give people an email / phone in Team → Edit. Assignments, SLA warnings, escalations and @mentions are then sent by email (and WhatsApp, if the person has a phone and has messaged your WhatsApp number in the last 24 h).

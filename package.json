@@ -1,1 +1,13 @@
-{"description":"Agentic Task Management System — React frontend + Express backend","name":"agentic-task-os","private":true,"version":"1.0.0"}
+{
+  "description": "Agentic Task Management System — React frontend + Express backend",
+  "name": "agentic-task-os",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.mjs",
+    "stop": "node stop.mjs",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  }
+}
